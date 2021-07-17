@@ -1,0 +1,35 @@
+body,
+html {
+    height: 100%;
+    background-image: url("../images/bg.jpg");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.lndicn {
+    width: 80vw;
+}
+
+.lndtxt {
+    text-align: center;
+    color: white;
+}
+
+.lndbtn {
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
