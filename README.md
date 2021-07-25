@@ -1,2 +1,0 @@
-# Zuri
-Zuri webapp
